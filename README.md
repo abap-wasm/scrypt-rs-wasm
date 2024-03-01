@@ -1,0 +1,2 @@
+# scrypt-rs-wasm
+test
