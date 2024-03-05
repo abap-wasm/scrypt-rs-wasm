@@ -1,9 +1,8 @@
 {
-  "name": "scrypt-rs-wasm",
-  "private": true,
-  "version": "1.0.0",
+  "name": "@larshp/scrypt-rs-wasm",
+  "version": "0.0.1",
   "description": "todo",
-  "main": "index.js",
+  "main": "pkg/scrypt_rs_wasm.js",
   "scripts": {
     "test": "rm -rf pkg && wasm-pack build --target nodejs && node index.mjs"
   },

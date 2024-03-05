@@ -1,4 +1,5 @@
-import { greet } from './pkg/scrypt_rs_wasm.js';
+import { run } from './pkg/scrypt_rs_wasm.js';
 
-const res = greet('World');
-console.dir(res);
+const res = run();
+
+console.log(res);
