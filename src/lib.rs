@@ -12,6 +12,7 @@ struct Test {
 
 #[wasm_bindgen]
 pub fn run() -> String {
+  console_error_panic_hook::set_once();
 
   let t = Test {
     log_n: 15,
