@@ -1,0 +1,14 @@
+{
+  "name": "scrypt-rs-wasm",
+  "private": true,
+  "version": "1.0.0",
+  "description": "todo",
+  "main": "index.js",
+  "scripts": {
+    "test": "rm -rf pkg && wasm-pack build --target nodejs && node index.mjs"
+  },
+  "devDependencies": {
+  },
+  "author": "Lars Hvam",
+  "license": "MIT"
+}
