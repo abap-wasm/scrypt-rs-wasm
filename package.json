@@ -6,6 +6,10 @@
   "scripts": {
     "test": "rm -rf pkg && wasm-pack build --target nodejs && node index.mjs"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/larshp/scrypt-rs-wasm"
+  },
   "devDependencies": {
   },
   "author": "Lars Hvam",

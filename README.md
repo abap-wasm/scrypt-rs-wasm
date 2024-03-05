@@ -1,10 +1,10 @@
 # scrypt-rs-wasm
 
-todo
+https://github.com/larshp/scrypt-rs-wasm
 
 ## Building
 
-todo
+`npm test`
 
 ## Random Notes
 
